@@ -10,17 +10,17 @@
 
 @import url('https://lolpowerluke.github.io/smallDMchannelList/smallDMchannelListNewClasses.css');
 /*small dm/channel list*/
-.sidebar-2K8pFh {
+.sidebar-1tnWFu {
   width: 60px;
   transition: width 0.5s;
 }
-.sidebar-2K8pFh:hover {
+.sidebar-1tnWFu:hover {
   width: 240px;
 }
-.sidebar-2K8pFh:not(:hover) .pinnedChannelsHeaderContainer-89Gjv4 .headerAmount-_-7GrS {
+.sidebar-1tnWFu:not(:hover) .pinnedChannelsHeaderContainer-89Gjv4 .headerAmount-_-7GrS {
   margin-left: -15px;
 }
-.sidebar-2K8pFh:not(:hover) .container-6sXIoE.withTimeline-824fT_ .coverWrapper-YAplwJ {
+.sidebar-1tnWFu:not(:hover) .container-6sXIoE.withTimeline-824fT_ .coverWrapper-YAplwJ {
   margin-left: 6px;
 }
 .container-6sXIoE.withTimeline-824fT_,
@@ -28,80 +28,80 @@
   width: 60px !important;
   transition: width 0.5s;
 }
-.sidebar-2K8pFh:hover .container-6sXIoE.withTimeline-824fT_,
-.sidebar-2K8pFh:hover .container-6sXIoE .bar-g2ZMIm {
+.sidebar-1tnWFu:hover .container-6sXIoE.withTimeline-824fT_,
+.sidebar-1tnWFu:hover .container-6sXIoE .bar-g2ZMIm {
   width: 240px !important;
 }
-.panels-j1Uci_ > .wrapper-24pKcD:not(:empty) {
+.panels-3wFtMD > .wrapper-3Hk9OB:not(:empty) {
   height: 110px;
 }
-.sidebar-2K8pFh:not(:hover) .barText-lmqc5O :first-child {
+.sidebar-1tnWFu:not(:hover) .barText-lmqc5O :first-child {
   margin-left: -5px;
 }
-.sidebar-2K8pFh:not(:hover) .barText-lmqc5O :last-child {
+.sidebar-1tnWFu:not(:hover) .barText-lmqc5O :last-child {
   margin-right: -5px;
 }
-.activityRow-2FZXn1 ~ .separator-1APq0v,
+.activityRow-2wnr1d ~ .separator-2jb_gA,
 .fa-arrow-right:before,
-.sidebar-2K8pFh:not(:hover) .ownerIcon-2NH9FM,
-.sidebar-2K8pFh:not(:hover) .size24-1HlGux .avatarContainer-3CQrif,
-.sidebar-2K8pFh:not(:hover) .total-i6us2n:after,
-.sidebar-2K8pFh:not(:hover) .role-2irmRk,
-.sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .usernameFont-23TX-h,
-.sidebar-2K8pFh:not(:hover) .click-to-chat-btn,
-.sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .icons-1dXQdz,
-.sidebar-2K8pFh:not(:hover) .info-WdNIDE,
-.sidebar-2K8pFh:not(:hover) .actions-aUdUfC,
-.sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN.selected-3LIHYU .iconItem-F7GRxr,
-.sidebar-2K8pFh:not(:hover) .RestoreDirectMessages-style-divider,
-.sidebar-2K8pFh:not(:hover) .RestoreDirectMessages-style-button {
+.sidebar-1tnWFu:not(:hover) .ownerIcon-255uKo,
+.sidebar-1tnWFu:not(:hover) .size24-9rrwDS .avatarContainer-gPrCzX,
+.sidebar-1tnWFu:not(:hover) .total-1c5KCN:after,
+.sidebar-1tnWFu:not(:hover) .role-2TIOKu,
+.sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .usernameFont-2oJxoI,
+.sidebar-1tnWFu:not(:hover) .click-to-chat-btn,
+.sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .icons-2mwuFp,
+.sidebar-1tnWFu:not(:hover) .info-88fTUI,
+.sidebar-1tnWFu:not(:hover) .actions-zk2vB_,
+.sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3.selected-2TbFuo .iconItem-1EjiK0,
+.sidebar-1tnWFu:not(:hover) .RestoreDirectMessages-style-divider,
+.sidebar-1tnWFu:not(:hover) .RestoreDirectMessages-style-button {
   display: none;
 }
-.sidebar-2K8pFh:not(:hover) .RestoreDirectMessages-style-button {
+.sidebar-1tnWFu:not(:hover) .RestoreDirectMessages-style-button {
   margin-left: 10px;
 }
-.containerDefault--pIXnN .list-2luk8a.collapsed-21_y8I {
+.containerDefault-YUSmu3 .list-2x9Cl9.collapsed-1oYzUu {
   width: calc(100% - 26px);
 }
-.sidebar-2K8pFh:not(:hover) .users-3kndPl {
+.sidebar-1tnWFu:not(:hover) .users-2JoyGL {
   margin-top: -5px;
   margin-right: -22px;
 }
-.sidebar-2K8pFh:not(:hover) .total-i6us2n {
+.sidebar-1tnWFu:not(:hover) .total-1c5KCN {
   margin-top: 5px;
 }
-.containerDefault--pIXnN:not(:hover) .iconItem-F7GRxr {
+.containerDefault-YUSmu3:not(:hover) .iconItem-1EjiK0 {
   display: none;
 }
-.sidebar-2K8pFh:not(:hover) .children-3rEycc {
+.sidebar-1tnWFu:not(:hover) .children-1MGS9G {
   margin-right: -12px;
 }
-.sidebar-2K8pFh:not(:hover) .users-3kndPl,
-.sidebar-2K8pFh:not(:hover) .total-i6us2n {
+.sidebar-1tnWFu:not(:hover) .users-2JoyGL,
+.sidebar-1tnWFu:not(:hover) .total-1c5KCN {
   background-color: transparent;
   font-size: 9px;
   display: block;
 }
-.sidebar-2K8pFh:not(:hover) .ti-indicator {
+.sidebar-1tnWFu:not(:hover) .ti-indicator {
   transform: rotate(-90deg);
   margin-right: -10px;
 }
-.panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp,
-.gameIconWrapper-1YByCI {
+.panels-3wFtMD .container-YkUktl .avatarWrapper-1B9FTW,
+.gameIconWrapper-zXQ03M {
   margin-left: 6px;
   transition: margin-left 0.3s;
 }
-.sidebar-2K8pFh:hover .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp,
-.sidebar-2K8pFh:hover .gameIconWrapper-1YByCI {
+.sidebar-1tnWFu:hover .panels-3wFtMD .container-YkUktl .avatarWrapper-1B9FTW,
+.sidebar-1tnWFu:hover .gameIconWrapper-zXQ03M {
   margin-left: 0px;
   transition: margin-left 0.3s;
 }
-.sidebar-2K8pFh:hover .container-1giJp5 .connection-3KRENF .button-14-BFJ {
+.sidebar-1tnWFu:hover .container-1zzFcN .connection-3k9QeF .button-12Fmur {
   width: 32px;
   height: 32px;
 }
-.container-1giJp5 .connection-3KRENF .button-14-BFJ,
-.actionButtons-14eAc_ .button-1YfofB {
+.container-1zzFcN .connection-3k9QeF .button-12Fmur,
+.actionButtons-2vEOUh .button-1EGGcP {
   width: 0px;
   padding: 0px;
   height: 0px;
@@ -109,7 +109,7 @@
   min-height: 0;
   transition: all 0.5s;
 }
-.sidebar-2K8pFh:hover .actionButtons-14eAc_ .button-1YfofB {
+.sidebar-1tnWFu:hover .actionButtons-2vEOUh .button-1EGGcP {
   width: auto;
   padding: 0px;
   height: 32px;
@@ -117,128 +117,128 @@
   min-height: 32px;
   transition: all 0.5s;
 }
-.actionButtons-14eAc_ .button-1YfofB .buttonIcon-Od8mYw {
+.actionButtons-2vEOUh .button-1EGGcP .buttonIcon-2Zsrs2 {
   width: 0px;
   height: 0px;
   transition: all 0.5s;
 }
-.sidebar-2K8pFh:hover .actionButtons-14eAc_ .button-1YfofB .buttonIcon-Od8mYw {
+.sidebar-1tnWFu:hover .actionButtons-2vEOUh .button-1EGGcP .buttonIcon-2Zsrs2 {
   width: 20px;
   height: 20px;
   transition: all 0.5s;
 }
-.container-1giJp5 .connection-3KRENF .button-14-BFJ .contents-18-Yxp svg {
+.container-1zzFcN .connection-3k9QeF .button-12Fmur .contents-18-Yxp svg {
   width: 0px;
   height: 0px;
   transition: all 0.5s;
 }
-.sidebar-2K8pFh:hover .container-1giJp5 .connection-3KRENF .button-14-BFJ .contents-18-Yxp svg {
+.sidebar-1tnWFu:hover .container-1zzFcN .connection-3k9QeF .button-12Fmur .contents-18-Yxp svg {
   width: 20px;
   height: 20px;
   transition: all 0.5s;
 }
-.sidebar-2K8pFh:not(:hover) .container-1giJp5 .connection-3KRENF .flex-1xMQg5 {
+.sidebar-1tnWFu:not(:hover) .container-1zzFcN .connection-3k9QeF .flex-2S1XBF {
   margin: 0px;
 }
-.container-1giJp5 .connection-3KRENF .subtext-3CDbHg {
+.container-1zzFcN .connection-3k9QeF .subtext-2HDqJ7 {
   text-overflow: clip;
 }
 .voiceTimer {
   white-space: normal;
 }
-.sidebar-2K8pFh:not(:hover) .children-3rEycc .voiceCounter {
+.sidebar-1tnWFu:not(:hover) .children-1MGS9G .voiceCounter {
   margin-right: 10px;
 }
 /*Channel list*/
-.containerDefault--pIXnN .name-23GUGE {
+.containerDefault-YUSmu3 .name-28HaxV {
   margin-left: 15px;
   opacity: 0;
   transition: margin-left 0.2s, opacity 0.5s;
 }
-.sidebar-2K8pFh:hover .containerDefault--pIXnN .name-23GUGE {
+.sidebar-1tnWFu:hover .containerDefault-YUSmu3 .name-28HaxV {
   margin-left: 0;
   opacity: 1;
 }
-.sidebar-2K8pFh:hover .container-3JKcAb .containerDefault--pIXnN .name-23GUGE {
+.sidebar-1tnWFu:hover .container-1Bj0eq .containerDefault-YUSmu3 .name-28HaxV {
   margin-left: 27px;
 }
-.container-3JKcAb .containerDefault--pIXnN .name-23GUGE {
+.container-1Bj0eq .containerDefault-YUSmu3 .name-28HaxV {
   margin-left: 42px;
 }
-.channelNotice-1-XFjC {
+.channelNotice-tO6Tus {
   width: 200px;
 }
-.containerDefault--pIXnN.selected-3LIHYU .userLimit-3aerPX, 
-.iconVisibility-sTNpHs:focus-within .userLimit-3aerPX, 
-.iconVisibility-sTNpHs:focus .userLimit-3aerPX, 
-.iconVisibility-sTNpHs:hover .userLimit-3aerPX {
+.containerDefault-YUSmu3.selected-2TbFuo .userLimit-VbEkeM, 
+.iconVisibility-vptxma:focus-within .userLimit-VbEkeM, 
+.iconVisibility-vptxma:focus .userLimit-VbEkeM, 
+.iconVisibility-vptxma:hover .userLimit-VbEkeM {
   display: block;
   margin-left: 5px;
 }
-.container-1giJp5 .actionButtons-14eAc_ .contents-18-Yxp {
+.container-1zzFcN .actionButtons-2vEOUh .contents-18-Yxp {
   font-size: 0px;
   transition: font-size 0.5s;
 }
-.sidebar-2K8pFh:hover .container-1giJp5 .actionButtons-14eAc_ .contents-18-Yxp {
+.sidebar-1tnWFu:hover .container-1zzFcN .actionButtons-2vEOUh .contents-18-Yxp {
   font-size: initial;
 }
-.voiceUser-1K6Xox {
+.voiceUser-3nRK-K {
   margin-right: 4px;
 }
-.scroller-RmtA4e {
+.scroller-1ox3I2 {
   padding-right: 0 !important;
 }
 /*Activity in vc*/
-.containerDefault--pIXnN:hover .activityRow-2FZXn1 .content-bGAvz5 {
+.containerDefault-YUSmu3:hover .activityRow-2wnr1d .content-2Lhv86 {
   border-bottom: 0;
 }
-.containerDefault--pIXnN .list-2luk8a {
+.containerDefault-YUSmu3 .list-2x9Cl9 {
   padding-bottom: 0;
 }
-.activityRow-2FZXn1 .content-bGAvz5 {
+.activityRow-2wnr1d .content-2Lhv86 {
   width: 20px;
 }
-.activityRow-2FZXn1 .activity-1ixT7k {
+.activityRow-2wnr1d .activity-Rs0ViZ {
   margin-left: 15px;
   opacity: 0;
   transition: margin-left 0.2s, opacity 0.5s;
 }
-.sidebar-2K8pFh:hover .activityRow-2FZXn1 .activity-1ixT7k {
+.sidebar-1tnWFu:hover .activityRow-2wnr1d .activity-Rs0ViZ {
   margin-left: 0;
   opacity: 1;
 }
-.containerDefault--pIXnN:hover .activityRow-2FZXn1:first-child .content-bGAvz5 {
+.containerDefault-YUSmu3:hover .activityRow-2wnr1d:first-child .content-2Lhv86 {
   border-top: 0;
 }
-.containerDefault--pIXnN:hover .activityRow-2FZXn1 .separator-1APq0v {
+.containerDefault-YUSmu3:hover .activityRow-2wnr1d .separator-2jb_gA {
   display: none;
 }
-.listDefault-3Huwgs {
+.listDefault-1QEzz4 {
   margin-top: -1px
 }
-.activityRow-2FZXn1 {
+.activityRow-2wnr1d {
   margin: 0;
   padding: 0;
 }
-.activityRow-2FZXn1 .content-bGAvz5 {
+.activityRow-2wnr1d .content-2Lhv86 {
   margin: 0 8px;
   border-radius: 0;
   border-bottom: 0;
 }
 /*mention and unread badges*/
-.sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .UnreadCountBadges-badge-channelUnread {
+.sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .UnreadCountBadges-badge-channelUnread {
   border-radius: 5px 0 0 0;
   padding: 0;
   bottom: 0;
 }
-.sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .mentionsBadge-3tC7Mi {
+.sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .mentionsBadge-2ckrKL {
   top: 0;
   padding: 0;
 }
-.sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .mentionsBadge-3tC7Mi .numberBadge-2s8kKX {
+.sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .mentionsBadge-2ckrKL .numberBadge-37OJ3S {
   border-radius: 0 0 0 5px;
 }
-#app-mount .sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .numberBadge-2s8kKX {
+#app-mount .sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .numberBadge-37OJ3S {
   font-size: 10px;
   min-width: 12px;
   max-width: 20px;
@@ -246,15 +246,15 @@
   height: 12px;
   padding: 0;
 }
-.sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .UnreadCountBadges-badge-channelUnread,
-.sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .mentionsBadge-3tC7Mi {
+.sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .UnreadCountBadges-badge-channelUnread,
+.sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .mentionsBadge-2ckrKL {
   position: absolute;
   right: 0;
 }
-.sidebar-2K8pFh:not(:hover) .containerDefault-3tr_sE + .containerDefault--pIXnN .mentionsBadge-3tC7Mi .numberBadge-2s8kKX {
+.sidebar-1tnWFu:not(:hover) .containerDefault-3TQ5YN + .containerDefault-YUSmu3 .mentionsBadge-2ckrKL .numberBadge-37OJ3S {
   border-radius: 0 5px 0 5px;
 }
-.sidebar-2K8pFh:not(:hover) [href="/channels/@me"] .numberBadge-2s8kKX {
+.sidebar-1tnWFu:not(:hover) [href="/channels/@me"] .numberBadge-37OJ3S {
   position: absolute;
   right: 15px;
   top: 10px;
@@ -265,21 +265,21 @@
   min-width: unset;
 }
 /*Server boost progress bar*/
-.sidebar-2K8pFh .progressBarContainer-cCu8a2 {
+.sidebar-1tnWFu .progressBarContainer-2E4oR- {
   width: 45px;
   transition: width 0.5s;
 }
-.sidebar-2K8pFh:hover .progressBarContainer-cCu8a2 {
+.sidebar-1tnWFu:hover .progressBarContainer-2E4oR- {
   width: 225px;
 }
 /*DM-list*/
-.channel-2QD9_O {
+.channel-1Shao0 {
   margin-right: 4px;
   transition: margin 0.75s;
 }
-.sidebar-2K8pFh:hover .channel-2QD9_O {
+.sidebar-1tnWFu:hover .channel-1Shao0 {
   margin-right: 0px;
 }
-.privateChannels-1nO12o .scrollerBase-289Jih {
+.privateChannels-oVe7HL .scrollerBase-_bVAAt {
   padding-right: 0 !important;
 }
