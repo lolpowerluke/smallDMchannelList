@@ -47,6 +47,7 @@
 .sidebar-1tnWFu:not(:hover) .barText-lmqc5O :last-child {
   margin-right: -5px;
 }
+.sidebar-1tnWFu:not(:hover) .voiceUserSummary-huJ8Md > .container-1jha_j > .icon-3akWb2 ~ *,
 .activityRow-2wnr1d ~ .separator-2jb_gA,
 .fa-arrow-right:before,
 .sidebar-1tnWFu:not(:hover) .ownerIcon-255uKo,
