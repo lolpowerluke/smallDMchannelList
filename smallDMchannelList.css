@@ -8,9 +8,16 @@
  * @invite       GwjrQVDNJ2
 */
 
+
+:root {
+  --channel-name-no-hover-margin: 0px; /*15px for hidding the name, 0px for showing the name*/
+  --channel-name-no-hover-opacity: 1; /*0 for hiding the name, 1 for showing the name*/
+  --siderbar-no-hover-width: 80px; /*60px for just the channelIcon, 80px for the 1st 2/3 letters of the channel names*/
+}
+
 /*small dm/channel list*/
 .sidebar-1tnWFu {
-  width: 60px;
+  width: var(--siderbar-no-hover-width, 60px);
   transition: width 0.5s;
 }
 .sidebar-1tnWFu:hover {
@@ -150,8 +157,8 @@
 }
 /*Channel list*/
 .containerDefault-YUSmu3 .name-28HaxV {
-  margin-left: 15px;
-  opacity: 0;
+  margin-left: var(--channel-name-no-hover-margin, 15px);
+  opacity: var(--channel-name-no-hover-opacity, 0);
   transition: margin-left 0.2s, opacity 0.5s;
 }
 .sidebar-1tnWFu:hover .containerDefault-YUSmu3 .name-28HaxV {
