@@ -10,9 +10,9 @@
 
 
 :root {
-  --channel-name-no-hover-margin: 0px; /*15px for hidding the name, 0px for showing the name*/
-  --channel-name-no-hover-opacity: 1; /*0 for hiding the name, 1 for showing the name*/
-  --siderbar-no-hover-width: 80px; /*60px for just the channelIcon, 80px for the 1st 2/3 letters of the channel names*/
+  --channel-name-no-hover-margin: 15px; /*15px for hidding the name, 0px for showing the name*/
+  --channel-name-no-hover-opacity: 0; /*0 for hiding the name, 1 for showing the name*/
+  --siderbar-no-hover-width: 60px; /*60px for just the channelIcon, 80px for the 1st 2/3 letters of the channel names*/
 }
 
 /*small dm/channel list*/
