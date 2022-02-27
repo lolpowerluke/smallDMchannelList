@@ -47,20 +47,22 @@
 .sidebar-1tnWFu:not(:hover) .container-6sXIoE.withTimeline-824fT_ .coverWrapper-YAplwJ {
   margin-left: 6px;
 }
-#app-mount .container-6sXIoE.withTimeline-824fT_,
-#app-mount .container-6sXIoE .bar-g2ZMIm {
-  width: 60px;
-  transition: width 0.5s;
-}
-.sidebar-1tnWFu:hover .container-6sXIoE.withTimeline-824fT_,
-.sidebar-1tnWFu:hover .container-6sXIoE .bar-g2ZMIm {
-  width: 240px !important;
-}
-.sidebar-1tnWFu:not(:hover) .barText-lmqc5O :first-child {
-  margin-left: -5px;
-}
-.sidebar-1tnWFu:not(:hover) .barText-lmqc5O :last-child {
-  margin-right: -5px;
+@media (min-width: 700px) {
+  #app-mount .container-6sXIoE.withTimeline-824fT_,
+  #app-mount .container-6sXIoE .bar-g2ZMIm {
+    width: 60px;
+    transition: width 0.5s;
+  }
+  .sidebar-1tnWFu:hover .container-6sXIoE.withTimeline-824fT_,
+  .sidebar-1tnWFu:hover .container-6sXIoE .bar-g2ZMIm {
+    width: 240px !important;
+  }
+  .sidebar-1tnWFu:not(:hover) .barText-lmqc5O :first-child {
+    margin-left: -5px;
+  }
+  .sidebar-1tnWFu:not(:hover) .barText-lmqc5O :last-child {
+    margin-right: -5px;
+  }
 }
 .sidebar-1tnWFu:not(:hover) .voiceUserSummary-huJ8Md > .container-1jha_j > .icon-3akWb2 ~ *,
 .activityRow-2wnr1d ~ .separator-2jb_gA,
