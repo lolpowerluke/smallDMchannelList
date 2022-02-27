@@ -12,6 +12,7 @@
   --channel-name-no-hover-margin: 15px; /*15px for hidding the name, 0px for showing the name*/
   --channel-name-no-hover-opacity: 0; /*0 for hiding the name, 1 for showing the name*/
   --siderbar-no-hover-width: 60px; /*60px for just the channelIcon, 80px for the 1st 2/3 letters of the channel names*/
+  --back-sidebar: rgb(0, 0, 0);
 }
 
 /*small dm/channel list*/
@@ -19,15 +20,14 @@
   #app-mount .sidebar-1tnWFu {
     width: 0;
     z-index: 2;
-    margin-top: 64px;
-    height: calc(100% - 64px);
+    margin-top: 0;
+    height: 100%;
     position: fixed;
-    -webkit-box-shadow: var(--elevation-high);
     box-shadow: var(--elevation-high);
+    background-color: var(--back-sidebar);
     border-radius: 0;
     overflow: hidden;
-    z-index: 2;
-    -webkit-transition: width var(--float-guildbar-hover-speed) ease;
+    z-index: 3;
     transition: width var(--float-guildbar-hover-speed) ease;
   }
   #app-mount .wrapper-1_HaEi:hover+.base-2jDfDU>.content-1SgpWY>.sidebar-1tnWFu {
