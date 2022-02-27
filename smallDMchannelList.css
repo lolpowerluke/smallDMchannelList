@@ -47,9 +47,9 @@
 .sidebar-1tnWFu:not(:hover) .container-6sXIoE.withTimeline-824fT_ .coverWrapper-YAplwJ {
   margin-left: 6px;
 }
-.container-6sXIoE.withTimeline-824fT_,
-.container-6sXIoE .bar-g2ZMIm {
-  width: 60px !important;
+#app-mount .container-6sXIoE.withTimeline-824fT_,
+#app-mount .container-6sXIoE .bar-g2ZMIm {
+  width: 60px;
   transition: width 0.5s;
 }
 .sidebar-1tnWFu:hover .container-6sXIoE.withTimeline-824fT_,
