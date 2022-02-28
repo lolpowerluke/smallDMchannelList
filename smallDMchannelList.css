@@ -38,6 +38,13 @@
   #app-mount .wrapper-1_HaEi:hover+.base-2jDfDU>.content-1SgpWY>.sidebar-1tnWFu>.container-1NXEtd {
     width: var(--siderbar-no-hover-width);
   }
+  .sidebar-1tnWFu>.privateChannels-oVe7HL {
+    width: var(--siderbar-no-hover-width, 60px);
+    transition: width 0.5s;
+  }
+  #app-mount .sidebar-1tnWFu>.container-1NXEtd:hover {
+    width: 240px;
+  }
 }
 .sidebar-1tnWFu:not(:hover) .pinnedChannelsHeaderContainer-89Gjv4 .headerAmount-_-7GrS {
   margin-left: -15px;
