@@ -42,6 +42,7 @@
     width: var(--siderbar-no-hover-width, 60px);
     transition: width 0.5s;
   }
+  #app-mount .sidebar-1tnWFu>.privateChannels-oVe7HL:hover,
   #app-mount .sidebar-1tnWFu>.container-1NXEtd:hover {
     width: 240px;
   }
