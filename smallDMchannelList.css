@@ -24,7 +24,9 @@
     width: 0;
     z-index: 2;
     margin-top: 0;
-    height: 100%;
+    height: calc(100% - 25px);
+    padding-bottom: 10px;
+    box-sizing: border-box;
     position: fixed;
     box-shadow: var(--elevation-high);
     border-radius: 0;
