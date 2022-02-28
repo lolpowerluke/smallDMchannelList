@@ -326,13 +326,6 @@
   width: 225px;
 }
 /*DM-list*/
-.channel-1Shao0 {
-  margin-right: 4px;
-  transition: margin 0.75s;
-}
-.sidebar-1tnWFu:hover .channel-1Shao0 {
-  margin-right: 0px;
-}
 .privateChannels-oVe7HL .scrollerBase-_bVAAt {
   padding-right: 0 !important;
 }
