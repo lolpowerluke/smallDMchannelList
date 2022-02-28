@@ -20,6 +20,7 @@
   #app-mount .sidebar-1tnWFu {
     width: 0;
   }
+  #app-mount .sidebar-1tnWFu>.privateChannels-oVe7HL,
   #app-mount .sidebar-1tnWFu>.container-1NXEtd {
     width: 0;
     z-index: 2;
@@ -33,6 +34,7 @@
     z-index: 3;
     transition: width .5s ease;
   }
+  #app-mount .wrapper-1_HaEi:hover+.base-2jDfDU>.content-1SgpWY>.sidebar-1tnWFu>.privateChannels-oVe7HL,
   #app-mount .wrapper-1_HaEi:hover+.base-2jDfDU>.content-1SgpWY>.sidebar-1tnWFu>.container-1NXEtd {
     width: var(--siderbar-no-hover-width);
   }
