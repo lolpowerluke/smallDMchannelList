@@ -35,7 +35,7 @@
   }
   #app-mount .wrapper-1_HaEi:hover+.base-2jDfDU>.content-1SgpWY>.sidebar-1tnWFu>.privateChannels-oVe7HL,
   #app-mount .wrapper-1_HaEi:hover+.base-2jDfDU>.content-1SgpWY>.sidebar-1tnWFu>.container-1NXEtd {
-    width: var(--siderbar-no-hover-width);
+    width: var(--siderbar-no-hover-width, 60px);
   }
   .sidebar-1tnWFu>.privateChannels-oVe7HL {
     width: var(--siderbar-no-hover-width, 60px);
