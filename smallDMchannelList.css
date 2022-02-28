@@ -28,7 +28,6 @@
     height: 100%;
     position: fixed;
     box-shadow: var(--elevation-high);
-    background-color: var(--back-sidebar);
     border-radius: 0;
     overflow: hidden;
     z-index: 3;
