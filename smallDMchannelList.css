@@ -44,6 +44,15 @@
   #app-mount .sidebar-1tnWFu>.container-1NXEtd:hover {
     width: 240px;
   }
+  #app-mount .container-6sXIoE.withTimeline-824fT_,
+  #app-mount .container-6sXIoE .bar-g2ZMIm {
+    width: 56px;
+    transition: width .5s;
+  }
+  #app-mount .sidebar-1tnWFu .container-6sXIoE.withTimeline-824fT_:hover,
+  #app-mount .sidebar-1tnWFu .container-6sXIoE:hover .bar-g2ZMIm {
+    width: 240px;
+  }
   .container-6sXIoE:hover .gameIconWrapper-zXQ03M {
     margin-left: 0px;
   }
