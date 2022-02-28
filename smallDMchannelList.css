@@ -12,7 +12,6 @@
   --channel-name-no-hover-margin: 15px; /*15px for hidding the name, 0px for showing the name*/
   --channel-name-no-hover-opacity: 0; /*0 for hiding the name, 1 for showing the name*/
   --siderbar-no-hover-width: 60px; /*60px for just the channelIcon, 80px for the 1st 2/3 letters of the channel names*/
-  --back-sidebar: rgb(0, 0, 0);
 }
 
 /*small dm/channel list*/
