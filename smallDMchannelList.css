@@ -167,26 +167,26 @@
     width: 32px;
     height: 32px;
   }
-}
-.actionButtons-2vEOUh .button-1EGGcP .buttonIcon-2Zsrs2 {
-  width: 0px;
-  height: 0px;
-  transition: all 0.5s;
-}
-.sidebar-1tnWFu:hover .actionButtons-2vEOUh .button-1EGGcP .buttonIcon-2Zsrs2 {
-  width: 20px;
-  height: 20px;
-  transition: all 0.5s;
-}
-.container-1zzFcN .connection-3k9QeF .button-12Fmur .contents-18-Yxp svg {
-  width: 0px;
-  height: 0px;
-  transition: all 0.5s;
-}
-.sidebar-1tnWFu:hover .container-1zzFcN .connection-3k9QeF .button-12Fmur .contents-18-Yxp svg {
-  width: 20px;
-  height: 20px;
-  transition: all 0.5s;
+  .actionButtons-2vEOUh .button-1EGGcP .buttonIcon-2Zsrs2 {
+    width: 0px;
+    height: 0px;
+    transition: all 0.5s;
+  }
+  .sidebar-1tnWFu:hover .actionButtons-2vEOUh .button-1EGGcP .buttonIcon-2Zsrs2 {
+    width: 20px;
+    height: 20px;
+    transition: all 0.5s;
+  }
+  .container-1zzFcN .connection-3k9QeF .button-12Fmur .contents-18-Yxp svg {
+    width: 0px;
+    height: 0px;
+    transition: all 0.5s;
+  }
+  .sidebar-1tnWFu:hover .container-1zzFcN .connection-3k9QeF .button-12Fmur .contents-18-Yxp svg {
+    width: 20px;
+    height: 20px;
+    transition: all 0.5s;
+  }
 }
 .sidebar-1tnWFu:not(:hover) .container-1zzFcN .connection-3k9QeF .flex-2S1XBF {
   margin: 0px;
