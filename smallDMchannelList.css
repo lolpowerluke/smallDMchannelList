@@ -45,6 +45,9 @@
   #app-mount .sidebar-1tnWFu>.container-1NXEtd:hover {
     width: 240px;
   }
+  .container-6sXIoE:hover .gameIconWrapper-zXQ03M {
+    margin-left: 0px;
+  }
 }
 .sidebar-1tnWFu:not(:hover) .pinnedChannelsHeaderContainer-89Gjv4 .headerAmount-_-7GrS {
   margin-left: -15px;
