@@ -48,7 +48,7 @@
   }
   #app-mount .container-6sXIoE.withTimeline-824fT_,
   #app-mount .container-6sXIoE .bar-g2ZMIm {
-    width: 56px;
+    width: var(--guild-bar-width-700, 72px);
     transition: width .5s;
   }
   #app-mount .sidebar-1tnWFu .container-6sXIoE.withTimeline-824fT_:hover,
@@ -213,7 +213,7 @@
     pointer-events: all;
   }
   #app-mount .panels-3wFtMD .wrapper-3Hk9OB {
-    width: 56px;
+    width: var(--guild-bar-width-700, 72px);
     max-width: unset;
     transition: width .5s;
   }
