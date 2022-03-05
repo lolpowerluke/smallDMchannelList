@@ -422,6 +422,17 @@
     border: none;
     z-index: 100;
   }
+  /* User Container */
+  .container-YkUktl .noWrap-hBpHBz {
+    display: none;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .container-YkUktl:hover .noWrap-hBpHBz {
+    display: flex;
+    opacity: 1;
+    pointer-events: all;
+  }
 }
 /*Small ServerBar fixes for smaller window sizes*/
 @media (max-width:700px) {
