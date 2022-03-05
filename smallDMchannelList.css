@@ -412,3 +412,20 @@
 .privateChannels-oVe7HL .scrollerBase-_bVAAt {
   padding-right: 0 !important;
 }
+/*Panels in sidebar on smaller window sizes*/
+@media (max-width:700px) {
+  #app-mount .panels-3wFtMD {
+    position: fixed;
+    bottom: 6px;
+    left: 0;
+    background: none;
+    border: none;
+    z-index: 100;
+  }
+}
+/*Small ServerBar fixes for smaller window sizes*/
+@media (max-width:700px) {
+  .guilds-2JjMmN {
+    margin-bottom: 55px;
+  }
+}
