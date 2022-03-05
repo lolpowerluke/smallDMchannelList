@@ -437,6 +437,6 @@
 /*Small ServerBar fixes for smaller window sizes*/
 @media (max-width:700px) {
   .guilds-2JjMmN {
-    margin-bottom: 55px;
+    margin-bottom: calc(var(--guild-bar-width-700, 72px) - 1px);
   }
 }
