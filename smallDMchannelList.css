@@ -189,20 +189,6 @@
   }
 }
 @media (max-width: 700px) {
-  .panels-3wFtMD .panel-2ZFCRb.activityPanel-9icbyU .actions-zk2vB_,
-  .panels-3wFtMD .panel-2ZFCRb.activityPanel-9icbyU .info-88fTUI,
-  .panels-3wFtMD .container-6sXIoE.withTimeline-824fT_ .flex-2S1XBF,
-  .panels-3wFtMD .container-6sXIoE.withTimeline-824fT_ .timeline-UWmgAx .barText-lmqc5O>:nth-child(2),
-  .panels-3wFtMD .nameTag-sc-gpq {
-    display: none;
-  }
-  .panels-3wFtMD .wrapper-3Hk9OB:hover .actionButtons-2vEOUh,
-  .panels-3wFtMD .panel-2ZFCRb.activityPanel-9icbyU:hover .actions-zk2vB_,
-  .panels-3wFtMD .panel-2ZFCRb.activityPanel-9icbyU:hover .info-88fTUI,
-  .panels-3wFtMD .container-6sXIoE.withTimeline-824fT_:hover .flex-2S1XBF,
-  .panels-3wFtMD .container-6sXIoE.withTimeline-824fT_:hover .timeline-UWmgAx .barText-lmqc5O>:nth-child(2) {
-    display: flex;
-  }
   #app-mount .panels-3wFtMD .wrapper-3Hk9OB:not(:hover) .actionButtons-2vEOUh .button-f2h6uQ .flex-2S1XBF {
     font-size: 0px;
   }
