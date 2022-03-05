@@ -253,6 +253,19 @@
   .panels-3wFtMD .wrapper-3Hk9OB:not(:hover) .actionButtons-2vEOUh .button-1EGGcP .contents-3ca1mk {
     padding: 6px;
   }
+  .panels-3wFtMD>.container-YkUktl>.flex-2S1XBF {
+    background-color: var(--back-activity-panels, var(--background-floating));
+    border: none;
+    box-shadow: var(--elevation-high);
+  }
+  .panels-3wFtMD .container-1zzFcN,
+  .panels-3wFtMD .container-6sXIoE,
+  .panels-3wFtMD .panel-2ZFCRb {
+    background-color: var(--back-activity-panels, var(--background-floating));
+    border-radius: 5px;
+    border: none;
+    box-shadow: var(--elevation-high);
+  }
 }
 .sidebar-1tnWFu:not(:hover) .container-1zzFcN .connection-3k9QeF .flex-2S1XBF {
   margin: 0px;
