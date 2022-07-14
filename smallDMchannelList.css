@@ -117,8 +117,10 @@
 .gameIconWrapper-zXQ03M {
   margin-left: 6px;
   transition: margin-left 0.3s;
-  width: 100%;
   margin-right: 0;
+}
+.panels-3wFtMD .container-YkUktl .avatarWrapper-1B9FTW {
+  width: 100%;
 }
 .containerDefault-YUSmu3 .list-2x9Cl9.collapsed-1oYzUu {
   width: calc(100% - 26px);
