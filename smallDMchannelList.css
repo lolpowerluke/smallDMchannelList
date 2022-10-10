@@ -271,6 +271,18 @@
     border: none;
     box-shadow: var(--elevation-high);
   }
+  .panels-3wFtMD .container-YkUktl .avatarWrapper-1B9FTW {
+    min-width: 0px;
+  }
+  .panels-3wFtMD .container-YkUktl {
+    border-top: 1px solid rgb(var(--border-color-1), var(--border-opacity-1))
+  }
+  .panels-3wFtMD .container-YkUktl:hover {
+    border-radius: 0 25px 0 0;
+    border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+    border-left: 0;
+    border-bottom: 0;
+  }
 }
 .sidebar-1tnWFu:not(:hover) .container-1zzFcN .connection-3k9QeF .flex-2S1XBF {
   margin: 0px;
