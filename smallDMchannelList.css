@@ -41,6 +41,8 @@
   .sidebar-1tnWFu>.privateChannels-oVe7HL {
     width: var(--siderbar-no-hover-width, 60px);
     transition: width 0.5s;
+    background: linear-gradient(to bottom, rgba(var(--back-gradient-top, 0,0,0), var(--back-gradient-opacity, 0)) 80%, rgba(var(--back-gradient-bottom, 0, 0, 0), var(--back-gradient-opacity, 0)));
+    backdrop-filter: blur(2px);
   }
   #app-mount .sidebar-1tnWFu>.privateChannels-oVe7HL:hover,
   #app-mount .sidebar-1tnWFu>.container-1NXEtd:hover {
