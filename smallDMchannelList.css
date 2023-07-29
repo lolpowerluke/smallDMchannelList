@@ -394,7 +394,7 @@
   bottom: 0;
 }
 .sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .mentionsBadge-3H1BKJ {
-  top: 0;
+  top: -6px;
   padding: 0;
 }
 .sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .mentionsBadge-3H1BKJ .numberBadge-37OJ3S {
@@ -411,7 +411,7 @@
 .sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .UnreadCountBadges-badge-channelUnread,
 .sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .mentionsBadge-3H1BKJ {
   position: absolute;
-  right: 0;
+  right: -8px;
 }
 .sidebar-1tnWFu:not(:hover) .containerDefault-3TQ5YN + .containerDefault-YUSmu3 .mentionsBadge-3H1BKJ .numberBadge-37OJ3S {
   border-radius: 0 5px 0 5px;
