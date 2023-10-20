@@ -291,14 +291,14 @@
     border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
     border-top: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   }
+  #app-mount .panels-3wFtMD .panel-ufc1-o:hover + .wrapper-VSquwh .container-2NLBJg {
+    border-top: 1px solid rgba(0, 0, 0, 0);
+  }
   .panels-3wFtMD .container-1CH86i:hover {
     border-radius: 0 25px 0 0;
     border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
     border-left: 0;
     border-bottom: 0;
-  }
-  #app-mount .panels-3wFtMD .wrapper-VSquwh {
-    transition: width .5s;
   }
   #app-mount .panels-3wFtMD .wrapper-VSquwh *{
     transition: all 0.5s;
@@ -396,6 +396,10 @@
 
   .panels-3wFtMD .container-1CH86i {
     background: none;
+    border-top: 1px solid rgba(0, 0, 0, 0);
+  }
+  .panels-3wFtMD .container-1CH86i:hover {
+    border-top: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   }
 
   .panels-3wFtMD .container-6sXIoE .coverWrapper-YAplwJ {
@@ -407,9 +411,15 @@
   }
 
   .panels-3wFtMD .panel-ufc1-o.activityPanel-9icbyU {
-    max-width: 40px;
+    border: 1px solid rgb(0,0,0,0);
+    max-width: 38px;
   }
-
+  .panels-3wFtMD .panel-ufc1-o.activityPanel-9icbyU:hover {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+    border-left: 0;
+  }
   .panels-3wFtMD .panel-ufc1-o.activityPanel-9icbyU:hover,
   .panels-3wFtMD .container-6sXIoE:hover {
     bottom: 12px !important;
