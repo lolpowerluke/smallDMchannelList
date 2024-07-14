@@ -542,9 +542,6 @@
     max-width: var(--guild-bar-width-700, 72px);
     box-sizing: border-box;
   }
-  .panels_a4d4d9 .container_b2ca13 .avatarWrapper_b2ca13 {
-    justify-content: center;
-  }
 	.panels_a4d4d9 .panel_bf1a22.activityPanel_a4d4d9:hover {
 		border-top-right-radius: 8px;
 		border-bottom-right-radius: 8px;
