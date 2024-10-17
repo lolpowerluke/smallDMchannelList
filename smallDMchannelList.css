@@ -123,11 +123,8 @@
 		margin-left: 0px;
 	}
 }
-.sidebar_a4d4d9:not(:hover)
-	.voiceUserSummary_c43953
-	> .container_d03bba
-	> .icon_d03bba
-	~ *,
+.sidebar_a4d4d9:not(:hover) .container_adcaac .connection_adcaac .button_adca65,
+.sidebar_a4d4d9:not(:hover)	.voiceUserSummary_c43953 > .container_d03bba > .icon_d03bba	~ *,
 .activityRow-2wnr1d ~ .separator-2jb_gA,
 .fa-arrow-right:before,
 .sidebar_a4d4d9:not(:hover) .ownerIcon_a31c43,
@@ -139,9 +136,7 @@
 .sidebar_a4d4d9:not(:hover) .containerDefault_f6f816 .icons_d80634,
 .sidebar_a4d4d9:not(:hover) .info_bf1a22,
 .sidebar_a4d4d9:not(:hover) .actions_bf1a22,
-.sidebar_a4d4d9:not(:hover)
-	.containerDefault_f6f816.selected_f6f816
-	.iconItem_f6f816,
+.sidebar_a4d4d9:not(:hover)	.containerDefault_f6f816.selected_f6f816 .iconItem_f6f816,
 .sidebar_a4d4d9:not(:hover) .RestoreDirectMessages-style-divider,
 .sidebar_a4d4d9:not(:hover) .RestoreDirectMessages-style-button {
 	display: none;
