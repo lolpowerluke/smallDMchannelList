@@ -24,7 +24,8 @@
 		width: 0;
 		z-index: 2;
 		margin-top: 0;
-		height: calc(100% - 22px);
+    top: 0px;
+    height: 100%;
 		padding-bottom: 0px;
 		box-sizing: border-box;
 		position: fixed;
@@ -34,18 +35,8 @@
 		z-index: 3;
 		transition: width 0.5s ease;
 	}
-	#app-mount
-		.wrapper_fea3ef:hover
-		+ .base_a4d4d9
-		> .content_a4d4d9
-		> .sidebar_a4d4d9
-		> .privateChannels_f0963d,
-	#app-mount
-		.wrapper_fea3ef:hover
-		+ .base_a4d4d9
-		> .content_a4d4d9
-		> .sidebar_a4d4d9
-		> .container_ee69e0 {
+	#app-mount .wrapper_fea3ef:hover + .base_a4d4d9 > .content_a4d4d9 > .sidebar_a4d4d9 > .privateChannels_f0963d,
+	#app-mount .wrapper_fea3ef:hover + .base_a4d4d9 > .content_a4d4d9 > .sidebar_a4d4d9 > .container_ee69e0 {
 		width: var(--siderbar-no-hover-width, 60px);
 	}
 	.sidebar_a4d4d9 > .privateChannels_f0963d {
