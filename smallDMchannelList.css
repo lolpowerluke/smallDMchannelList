@@ -39,6 +39,9 @@
 	#app-mount .wrapper_fea3ef:hover + .base_a4d4d9 > .content_a4d4d9 > .sidebar_a4d4d9 > .container_ee69e0 {
 		width: var(--siderbar-no-hover-width, 60px);
 	}
+  .searchBar_f0963d {
+    padding-top: 6px;
+  }
 	.sidebar_a4d4d9 > .privateChannels_f0963d {
 		width: var(--siderbar-no-hover-width, 60px);
 		transition: width 0.5s;
