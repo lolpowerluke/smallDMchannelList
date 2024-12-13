@@ -37,7 +37,7 @@
 	}
 	#app-mount .wrapper_fea3ef:hover + .base_a4d4d9 > .content_a4d4d9 > .sidebar_a4d4d9 > .privateChannels_f0963d,
 	#app-mount .wrapper_fea3ef:hover + .base_a4d4d9 > .content_a4d4d9 > .sidebar_a4d4d9 > .container_ee69e0 {
-		width: var(--siderbar-no-hover-width, 60px) !important;
+		width: var(--siderbar-no-hover-width, 60px);
 	}
   .searchBar_f0963d {
     padding-top: 6px;
@@ -80,12 +80,12 @@
 	margin-left: -15px;
 }
 @media (min-width: 700px) {
-	.sidebar_a4d4d9 {
+	#app-mount .sidebar_a4d4d9 {
 		width: var(--siderbar-no-hover-width, 60px) !important;
 		transition: width 0.5s;
 	}
 	#app-mount .sidebar_a4d4d9:hover {
-		width: 240px;
+		width: 240px !important;
 	}
 	#app-mount .container-6sXIoE.withTimeline-824fT_,
 	#app-mount .container-6sXIoE .bar-g2ZMIm {
