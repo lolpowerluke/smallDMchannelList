@@ -153,7 +153,7 @@
   margin: 0;
   padding: 2px;
   border-radius: 4px;
-  background-color: black;
+  background-color: var(--background-primary);
   border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
   height: fit-content;
 
