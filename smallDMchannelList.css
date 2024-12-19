@@ -605,16 +605,6 @@
 	min-height: unset;
 	min-width: unset;
 }
-.sidebar_a4d4d9:not(:hover) .newChannel_ecb303 {
-	position: absolute;
-	font-size: 10px;
-	top: -6px;
-	right: -6px;
-	padding: 0 4px;
-	min-width: unset;
-	min-height: unset;
-	height: unset;
-}
 /*Server boost progress bar*/
 .sidebar_a4d4d9 .progressBarContainer-2E4oR- {
 	width: 45px;
