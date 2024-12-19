@@ -605,6 +605,79 @@
 	min-height: unset;
 	min-width: unset;
 }
+.sidebar_a4d4d9 {
+  .channelInfo_f6f816 {
+    background-color: var(--background-primary);
+    border-radius: 8px;
+  }
+}
+.sidebar_a4d4d9:not(:hover) {
+  .newChannel_ecb303 {
+    position: absolute;
+    right: -8px;
+    font-size: 0px;
+    padding: 2px;
+    border-radius: 4px;
+    background-color: var(--background-primary) !important;
+    overflow: hidden;
+
+    &::after {
+      content: "N";
+      position: absolute;
+      inset: 0;
+      font-size: 10px;
+      background-color: var(--badge-brand-bg);
+    }
+  }
+  .channelInfo_f6f816 {
+    position: absolute;
+    right: -15px;
+    margin: 0;
+    border-radius: 4px;
+    overflow: hidden;
+    box-sizing: border-box;
+  
+    .numberBadge_df8943 {
+      border-radius: 0;
+    }
+    .wrapper_a5bc92 {
+      display: flex;
+      flex-direction: column;
+      padding: 2px;
+      gap: 1px;
+      height: fit-content;
+  
+      .users_a5bc92 {
+        padding-bottom: 1px;
+      }
+      & > * {
+        padding: 0;
+        margin: 0;
+        width: fit-content;
+        height: fit-content;
+        line-height: 9px;
+      }
+    }
+    .newChannel_ecb303 {
+      position: relative;
+      right: 0px;
+      font-size: 0px;
+      padding: 0;
+      border-radius: 0;
+      border: unset;
+      min-width: 14px;
+      min-height: 14px;
+      height: 100%;
+  
+      &::after {
+        content: "N";
+        position: absolute;
+        inset: 0;
+        font-size: 10px;
+      }
+    }
+  }
+}
 /*Server boost progress bar*/
 .sidebar_a4d4d9 .progressBarContainer-2E4oR- {
 	width: 45px;
