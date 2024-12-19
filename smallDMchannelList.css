@@ -608,10 +608,6 @@
 	padding: 0;
 	bottom: 0;
 }
-.sidebar_a4d4d9:not(:hover) .containerDefault_f6f816 .mentionsBadge_e2a798 {
-	top: -6px;
-	padding: 0;
-}
 .sidebar_a4d4d9:not(:hover) .containerDefault_f6f816 .mentionsBadge_e2a798 .numberBadge__40d6f {
 	border-radius: 0 0 0 5px;
 }
@@ -622,11 +618,6 @@
 	min-height: unset;
 	height: 12px;
 	padding: 0;
-}
-.sidebar_a4d4d9:not(:hover) .containerDefault_f6f816 .UnreadCountBadges-badge-channelUnread,
-.sidebar_a4d4d9:not(:hover) .containerDefault_f6f816 .mentionsBadge_e2a798 {
-	position: absolute;
-	right: -8px;
 }
 .sidebar_a4d4d9:not(:hover) .containerDefault_a08117 + .containerDefault_f6f816 .mentionsBadge_e2a798 .numberBadge__40d6f {
 	border-radius: 0 5px 0 5px;
