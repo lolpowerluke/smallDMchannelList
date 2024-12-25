@@ -79,7 +79,7 @@
 .sidebar_a4d4d9:not(:hover) .pinnedChannelsHeaderContainer-89Gjv4 .headerAmount-_-7GrS {
 	margin-left: -15px;
 }
-@media (min-width: 700px) {
+@media (min-width: 701px) {
 	#app-mount .sidebar_a4d4d9 {
 		width: var(--siderbar-no-hover-width, 60px) !important;
 		transition: width 0.5s;
@@ -167,7 +167,7 @@
 	transform: rotate(-90deg);
 	margin-right: -10px;
 }
-@media (min-width: 700px) {
+@media (min-width: 701px) {
 	.container_adcaac .connection_adcaac .button_adca65,
 	.actionButtons_adcaac .button_adcaac {
 		width: 0px;
