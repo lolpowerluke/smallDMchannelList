@@ -315,8 +315,11 @@
 	#app-mount .panels_a4d4d9 .panel_bf1a22:hover + .wrapper_adcaac .container_adcaac {
 		border-top: 1px solid rgba(0, 0, 0, 0);
 	}
+  .panels_a4d4d9 .container_b2ca13 {
+    padding: 0 6px 0 8px;
+  }
 	.panels_a4d4d9 .container_b2ca13:hover {
-		border-radius: 0 25px 0 0;
+		border-radius: 0 var(--border-radius-xl, 16px) 0 0;
 		border-right: 1px solid
 			rgb(var(--border-color-1), var(--border-opacity-1));
 		border-left: 0;
