@@ -767,7 +767,6 @@ html:not(.visual-refresh) {
 }
 
 
-
 .visual-refresh {
   /*small dm/channel list*/
   @media (max-width: 700px) {
@@ -840,6 +839,8 @@ html:not(.visual-refresh) {
       transition: width 0.5s;
       container-type: unset;
     }
+    #app-mount .sidebarList_c48ade:has( + .sidebarResizeHandle_c48ade:hover),
+    #app-mount .sidebarList_c48ade:has( + .sidebarResizeHandle_c48ade + .panels_c48ade:hover),
     #app-mount .sidebarList_c48ade:hover {
       width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width)) !important;
     }
