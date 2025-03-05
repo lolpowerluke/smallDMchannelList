@@ -12,6 +12,7 @@
 	--channel-name-no-hover-margin: 15px; /*15px for hidding the name, 0px for showing the name*/
 	--channel-name-no-hover-opacity: 0; /*0 for hiding the name, 1 for showing the name*/
 	--siderbar-no-hover-width: 60px; /*60px for just the channelIcon, 80px for the 1st 2/3 letters of the channel names*/
+  --sidebar-no-hover-call-buttons-width: 0px; /*0px for hiding the buttons, 100% for showing them*/
 }
 html:not(.visual-refresh) {
   /*small dm/channel list*/
@@ -170,7 +171,7 @@ html:not(.visual-refresh) {
   @media (min-width: 701px) {
     .container_e131a9 .connection_e131a9 .button__67645,
     .actionButtons_e131a9 .button_e131a9 {
-      width: 0px;
+      width: var(--sidebar-no-hover-call-buttons-width);
       padding: 0px;
       height: 0px;
       min-width: 0;
@@ -182,11 +183,9 @@ html:not(.visual-refresh) {
       height: 100%;
     }
     .sidebar_c48ade:hover .actionButtons_e131a9 .button_e131a9 {
-      width: auto;
+      width: 100%;
       padding: 0px;
       height: 32px;
-      min-width: 60px;
-      min-height: 32px;
     }
     .sidebar_c48ade:hover .container_e131a9 .connection_e131a9 .button__67645 {
       width: 32px;
@@ -927,7 +926,7 @@ html:not(.visual-refresh) {
   @media (min-width: 701px) {
     .container_e131a9 .connection_e131a9 .button__67645,
     .actionButtons_e131a9 .button_e131a9 {
-      width: 0px;
+      width: var(--sidebar-no-hover-call-buttons-width);
       padding: 0px;
       height: 0px;
       min-width: 0;
@@ -939,11 +938,9 @@ html:not(.visual-refresh) {
       height: 100%;
     }
     .sidebarList_c48ade:hover .actionButtons_e131a9 .button_e131a9 {
-      width: auto;
+      width: 100%;
       padding: 0px;
       height: 32px;
-      min-width: 60px;
-      min-height: 32px;
     }
     .sidebarList_c48ade:hover .container_e131a9 .connection_e131a9 .button__67645 {
       width: 32px;
