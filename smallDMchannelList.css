@@ -177,7 +177,7 @@ html:not(.visual-refresh) {
     .actionButtons_e131a9 .button_e131a9 {
       width: var(--sidebar-no-hover-call-buttons-width);
       padding: 0px;
-      height: 0px;
+      height: var(--sidebar-no-hover-call-buttons-height);
       min-width: 0;
       min-height: 0;
       transition: all var(--animation-duration-3, 0.5s);
@@ -956,7 +956,7 @@ html:not(.visual-refresh) {
     .actionButtons_e131a9 .button_e131a9 {
       width: var(--sidebar-no-hover-call-buttons-width);
       padding: 0px;
-      height: 0px;
+      height: var(--sidebar-no-hover-call-buttons-height);
       min-width: 0;
       min-height: 0;
       transition: all var(--animation-duration-3, 0.5s);
