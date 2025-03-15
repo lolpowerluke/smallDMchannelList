@@ -17,6 +17,10 @@
 html:not(.visual-refresh) {
   /*small dm/channel list*/
   @media (max-width: 700px) {
+
+    .sidebar_c48ade:not(:hover) .container__37e49 .buttons__37e49 {
+      display: none;
+    }
     #app-mount .sidebar_c48ade {
       width: 0 !important;
     }
@@ -115,7 +119,6 @@ html:not(.visual-refresh) {
   .sidebar_c48ade:not(:hover)	.voiceUserSummary__629e4 > .container__183c2 > .icon__183c2	~ *,
   .activityRow-2wnr1d ~ .separator-2jb_gA,
   .fa-arrow-right:before,
-  .sidebar_c48ade:not(:hover) .container__37e49 .buttons__37e49,
   .sidebar_c48ade:not(:hover) .ownerIcon__5d473,
   .sidebar_c48ade:not(:hover) .size24__183c2 .avatarContainer__183c2,
   .sidebar_c48ade:not(:hover) .total__260e1:after,
@@ -790,6 +793,10 @@ html:not(.visual-refresh) {
 .visual-refresh {
   /*small dm/channel list*/
   @media (max-width: 700px) {
+
+    .sidebarList_c48ade:not(:hover) .container__37e49 .buttons__37e49 {
+      display: none;
+    }
     #app-mount .sidebarList_c48ade {
       width: 0 !important;
     }
@@ -892,7 +899,6 @@ html:not(.visual-refresh) {
   .activityRow-2wnr1d ~ .separator-2jb_gA,
   .fa-arrow-right:before,
   .sidebarList_c48ade:not(:hover) .ownerIcon__5d473,
-  .sidebarList_c48ade:not(:hover) .container__37e49 .buttons__37e49,
   .sidebarList_c48ade:not(:hover) .size24__183c2 .avatarContainer__183c2,
   .sidebarList_c48ade:not(:hover) .total__260e1:after,
   .sidebarList_c48ade:not(:hover) .role_dfa8b6,
