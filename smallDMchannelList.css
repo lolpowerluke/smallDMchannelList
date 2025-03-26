@@ -867,6 +867,7 @@ html:not(.visual-refresh) {
       container-type: unset;
     }
     #app-mount .sidebarList_c48ade:has( + .sidebarResizeHandle_c48ade:hover),
+    #app-mount .sidebarList_c48ade:has( + .sidebarResizeHandle_c48ade:active),
     #app-mount .sidebarList_c48ade:has( + .sidebarResizeHandle_c48ade + .panels_c48ade:hover),
     #app-mount .sidebarList_c48ade:hover {
       width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width)) !important;
