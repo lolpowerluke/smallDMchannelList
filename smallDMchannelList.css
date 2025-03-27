@@ -1527,7 +1527,7 @@ html:not(.visual-refresh) {
   }
   /*DM-list*/
   .channel__972a0 {
-    margin-right: 4px;
+    /* margin-right: 4px; */
   }
   .privateChannels__35e86 .scrollerBase-_bVAAt {
     padding-right: 0 !important;
