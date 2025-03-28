@@ -1006,6 +1006,21 @@ html:not(.visual-refresh) {
       width: 20px;
       height: 20px;
     }
+    .panels_c48ade .container__37e49 .avatarWrapper__37e49 {
+      margin-left: 10px;
+      transition: margin-left var(--animation-duration-3, 0.5s);
+      margin-right: 0;
+    }
+    .panels_c48ade .container__37e49 .nameTag__37e49 {
+      opacity: var(--channel-name-no-hover-opacity);
+      transition: opacity var(--animation-duration-3, 0.5s);
+    }
+    .sidebarList_c48ade:hover ~ .panels_c48ade .container__37e49 .nameTag__37e49 {
+      opacity: 1;
+    }
+    .sidebarList_c48ade:hover ~ .panels_c48ade .container__37e49 .avatarWrapper__37e49 {
+      margin-left: 0;
+    }
   }
   @media (max-width: 700px) {
     .panels_c48ade .panel__5dec7.activityPanel_c48ade:not(:hover) .actions_bf1a22,
@@ -1080,10 +1095,7 @@ html:not(.visual-refresh) {
       padding: 6px;
     }
     .panels_c48ade > .container__37e49 > .flex__7c0ba {
-      background-color: var(
-        --back-activity-panels,
-        var(--background-floating)
-      );
+      background-color: var(--back-activity-panels,var(--background-floating));
       border: none;
       box-shadow: var(--elevation-high);
       margin-left: 5px;
@@ -1091,10 +1103,7 @@ html:not(.visual-refresh) {
     .panels_c48ade .container_e131a9,
     .panels_c48ade .container-6sXIoE,
     .panels_c48ade .panel__5dec7 {
-      background-color: var(
-        --back-activity-panels,
-        var(--background-floating)
-      );
+      background-color: var(--back-activity-panels,var(--background-floating));
       border-radius: 5px;
       border: none;
       box-shadow: var(--elevation-high);
@@ -1103,10 +1112,8 @@ html:not(.visual-refresh) {
       min-width: 0px;
     }
     .panels_c48ade .container_e131a9 {
-      border-bottom: 1px solid
-        rgb(var(--border-color-1), var(--border-opacity-1));
-      border-top: 1px solid
-        rgb(var(--border-color-1), var(--border-opacity-1));
+      border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+      border-top: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
     }
     #app-mount .panels_c48ade .panel__5dec7:hover + .wrapper_e131a9 .container_e131a9 {
       border-top: 1px solid rgba(0, 0, 0, 0);
@@ -1116,8 +1123,7 @@ html:not(.visual-refresh) {
     }
     .panels_c48ade .container__37e49:hover {
       border-radius: 0 var(--border-radius-xl, 16px) 0 0;
-      border-right: 1px solid
-        rgb(var(--border-color-1), var(--border-opacity-1));
+      border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
       border-left: 0;
       border-bottom: 0;
     }
