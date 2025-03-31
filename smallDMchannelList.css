@@ -841,6 +841,7 @@ html:not(.visual-refresh) {
       border: 0;
       width: fit-content;
       border-radius: 0;
+      z-index: 9999;
 
       .container__37e49 {
         background: var(--bg-overlay-floating,var(--background-base-low));
