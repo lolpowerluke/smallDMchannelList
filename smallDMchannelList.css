@@ -833,7 +833,7 @@ html:not(.visual-refresh) {
       height: calc(100vh - var(--custom-app-panels-height, 0) - 36px);
       margin-bottom: calc(var(--custom-app-panels-height, 0));
     }
-    #app-mount .panels_c48ade {
+    #app-mount div .panels_c48ade {
       position: fixed;
       bottom: 0;
       left: 0;
