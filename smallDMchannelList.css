@@ -780,6 +780,9 @@ html:not(.visual-refresh) {
 .visual-refresh {
   /*small dm/channel list*/
   @media (max-width: 800px) {
+    .sidebarResizeHandle_c48ade {
+      display: none;
+    }
     #app-mount .sidebarList_c48ade {
       width: 0;
       border: 0;
