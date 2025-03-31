@@ -777,9 +777,8 @@ html:not(.visual-refresh) {
 
 
 
-
+/* 
 .visual-refresh {
-  /*small dm/channel list*/
   @media (max-width: 700px) {
 
     .sidebarList_c48ade:not(:hover) .container__37e49 .buttons__37e49 {
@@ -1204,7 +1203,6 @@ html:not(.visual-refresh) {
       opacity: 0;
       width: 0;
     }
-    /* user panel */
     .wrapper_cb9592.normal_cb9592,
     .wrapper_cb9592.minimum_cb9592,
     .wrapper_cb9592.noChat_cb9592 {
@@ -1291,7 +1289,6 @@ html:not(.visual-refresh) {
   .sidebarList_c48ade:not(:hover) .children__2ea32 .voiceCounter {
     margin-right: 10px;
   }
-  /*Channel list*/
   .content-2a4AW9 > .wrapper__2ea32 .name__2ea32,
   .containerDefault_c69b6d .name__2ea32 {
     transform: translateX(var(--channel-name-no-hover-margin, 15px));
@@ -1332,7 +1329,6 @@ html:not(.visual-refresh) {
   .scroller__629e4 {
     padding-right: 0 !important;
   }
-  /*Activity in vc*/
   .containerDefault_c69b6d:hover .activityRow-2wnr1d .content-2Lhv86 {
     border-bottom: 0;
   }
@@ -1369,7 +1365,6 @@ html:not(.visual-refresh) {
     border-radius: 0;
     border-bottom: 0;
   }
-  /*mention and unread badges*/
   .sidebarList_c48ade:not(:hover) .containerDefault_c69b6d .UnreadCountBadges-badge-channelUnread {
     border-radius: 5px 0 0 0;
     padding: 0;
@@ -1513,7 +1508,6 @@ html:not(.visual-refresh) {
       min-width: 14px;
     }
   }
-  /*Server boost progress bar*/
   .sidebarList_c48ade .progressBarContainer-2E4oR- {
     width: 45px;
     transition: width var(--animation-duration-3, 0.5s);
@@ -1521,11 +1515,9 @@ html:not(.visual-refresh) {
   .sidebarList_c48ade:hover .progressBarContainer-2E4oR- {
     width: 225px;
   }
-  /*DM-list*/
   .privateChannels__35e86 .scrollerBase-_bVAAt {
     padding-right: 0 !important;
   }
-  /*Panels in sidebar on smaller window sizes*/
   @media (max-width: 700px) {
     #app-mount .panels_c48ade {
       position: fixed;
@@ -1535,7 +1527,6 @@ html:not(.visual-refresh) {
       border: none;
       z-index: 100;
     }
-    /* User Container */
     .container__37e49 .noWrap_abf706 {
       display: none;
       opacity: 0;
@@ -1547,10 +1538,9 @@ html:not(.visual-refresh) {
       pointer-events: all;
     }
   }
-  /*Small ServerBar fixes for smaller window sizes*/
   @media (max-width: 700px) {
     .guilds_c48ade {
       margin-bottom: calc(var(--guild-bar-width-700, 72px) - 1px);
     }
   }
-}
+} */
