@@ -811,6 +811,11 @@ html:not(.visual-refresh) {
         .scrollerBase__99f8c {
           margin: 0;
         }
+        .indicatorContainer {
+          display: inline-flex;
+        }
+        .iconWrapper__9293f,
+        .privateChannelsHeaderContainer__99e7c,
         .button__201d5,
         .children__29444,
         .mainContent__29444,
@@ -833,6 +838,9 @@ html:not(.visual-refresh) {
         .layout__20a53,
         .interactive__972a0 {
           display: flex;
+        }
+        .headerText__99e7c {
+          display: grid;
         }
         .channel__972a0:hover .closeButton__972a0 {
           display: block;
