@@ -793,7 +793,7 @@ html:not(.visual-refresh) {
       .privateChannels__35e86 {
         display: flex;
         width: 0;
-        z-index: 9999;
+        z-index: 101;
         position: fixed;
         top: 0;
         height: 100%;
@@ -841,7 +841,7 @@ html:not(.visual-refresh) {
       border: 0;
       width: fit-content;
       border-radius: 0;
-      z-index: 9999;
+      z-index: 101;
 
       .container__37e49 {
         background: var(--bg-overlay-floating,var(--background-base-low));
@@ -944,7 +944,7 @@ html:not(.visual-refresh) {
       margin-left: 0;
     }
   }
-  .sidebarListRounded_c48ade {
+  .sidebarList_c48ade {
     backdrop-filter: unset;
     border-radius: 0;
   
@@ -956,5 +956,26 @@ html:not(.visual-refresh) {
         padding: 2px 10px;
       }
     }
+  }
+  .channel__972a0 .content__20a53,
+  .containerDefault_c69b6d .name__2ea32 {
+    transform: translateX(var(--channel-name-no-hover-margin, 15px));
+    opacity: var(--channel-name-no-hover-opacity, 0);
+    transition: transform var(--animation-duration-2, 0.25s), opacity var(--animation-duration-3, 0.5s);
+  }
+  :where(.sidebarList_c48ade:has(~ .sidebarResizeHandle_c48ade:active), .sidebarList_c48ade:has(~ .sidebarResizeHandle_c48ade:hover), .sidebarList_c48ade:has(~ .panels_c48ade:hover), .sidebarList_c48ade:hover) .channel__972a0 .content__20a53,
+  :where(.sidebarList_c48ade:has(~ .sidebarResizeHandle_c48ade:active), .sidebarList_c48ade:has(~ .sidebarResizeHandle_c48ade:hover), .sidebarList_c48ade:has(~ .panels_c48ade:hover), .sidebarList_c48ade:hover) .content-2a4AW9 > .wrapper__2ea32 .name__2ea32, 
+  :where(.sidebarList_c48ade:has(~ .sidebarResizeHandle_c48ade:active), .sidebarList_c48ade:has(~ .sidebarResizeHandle_c48ade:hover), .sidebarList_c48ade:has(~ .panels_c48ade:hover), .sidebarList_c48ade:hover) .containerDefault_c69b6d .name__2ea32 {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .sidebarList_c48ade:hover .container__5b40b .containerDefault_c69b6d .name__2ea32 {
+    margin-left: 27px;
+  }
+  .container__5b40b .containerDefault_c69b6d .name__2ea32 {
+    margin-left: 42px;
+  }
+  .scroller__629e4 {
+    padding-right: 0 !important;
   }
 }
