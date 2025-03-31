@@ -793,6 +793,7 @@ html:not(.visual-refresh) {
       * {
         display: block;
       }
+      .container__2637a,
       .privateChannels__35e86 {
         display: flex;
         width: 0;
@@ -810,6 +811,20 @@ html:not(.visual-refresh) {
         .scrollerBase__99f8c {
           margin: 0;
         }
+        .button__201d5,
+        .children__29444,
+        .mainContent__29444,
+        .wrapperCommon__29444,
+        .content__65844,
+        .children__2ea32,
+        .linkTop__2ea32,
+        .link__2ea32,
+        .bar__7aaec,
+        .container__7aaec,
+        .childContainer__3e3b0,
+        .flowerStarContainer__3e3b0,
+        .guildIconV2Container__85d16,
+        .headerContent_f37cb1,
         .searchBar__35e86,
         .premiumTrialBadge__4c1e4,
         .nameAndDecorators__20a53,
@@ -828,6 +843,7 @@ html:not(.visual-refresh) {
       }
     }
     #app-mount .guilds_c48ade:hover + .sidebarList_c48ade {
+      .container__2637a,
       .privateChannels__35e86 {
         width: 60px;
       }
