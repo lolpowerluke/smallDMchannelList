@@ -776,7 +776,6 @@ html:not(.visual-refresh) {
 
 
 
-
 .visual-refresh {
   /*small dm/channel list*/
   @media (max-width: 800px) {
@@ -811,9 +810,22 @@ html:not(.visual-refresh) {
         .scrollerBase__99f8c {
           margin: 0;
         }
+        .chipletContainer__91e7c {
+          display: inline;
+        }
+        .usernameContainer__91e7c {
+          display: inline-block;
+        }
         .indicatorContainer {
           display: inline-flex;
         }
+        .list__07f91,
+        .iconGroup__07f91,
+        .optionsButton__07f91,
+        .content__07f91,
+        .icons__07f91,
+        .statusDiv__5cda9,
+        .linkBottom__2ea32,
         .iconWrapper__9293f,
         .privateChannelsHeaderContainer__99e7c,
         .button__201d5,
