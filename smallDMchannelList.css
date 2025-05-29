@@ -11,7 +11,7 @@
 :root {
 	--channel-name-no-hover-margin: 15px; /*15px for hidding the name, 0px for showing the name*/
 	--channel-name-no-hover-opacity: 0; /*0 for hiding the name, 1 for showing the name*/
-	--siderbar-no-hover-width: 60px; /*60px for just the channelIcon, 80px for the 1st 2/3 letters of the channel names*/
+	--sidebar-no-hover-width: 60px; /*60px for just the channelIcon, 80px for the 1st 2/3 letters of the channel names*/
   --sidebar-no-hover-call-buttons-width: 0px; /*0px for hiding the buttons, 100% for showing them*/
 }
 html:not(.visual-refresh) {
@@ -42,13 +42,13 @@ html:not(.visual-refresh) {
     }
     #app-mount .wrapper_ef3116:hover + .base_c48ade > .content_c48ade > .sidebar_c48ade > .privateChannels__35e86,
     #app-mount .wrapper_ef3116:hover + .base_c48ade > .content_c48ade > .sidebar_c48ade > .container__2637a {
-      width: var(--siderbar-no-hover-width, 60px);
+      width: var(--sidebar-no-hover-width, 60px);
     }
     .searchBar__35e86 {
       padding-top: 6px;
     }
     .sidebar_c48ade > .privateChannels__35e86 {
-      width: var(--siderbar-no-hover-width, 60px);
+      width: var(--sidebar-no-hover-width, 60px);
       transition: width var(--animation-duration-3, 0.5s);
       background: linear-gradient(
         to bottom,
@@ -86,7 +86,7 @@ html:not(.visual-refresh) {
   }
   @media (min-width: 701px) {
     #app-mount .sidebar_c48ade {
-      width: var(--siderbar-no-hover-width, 60px) !important;
+      width: var(--sidebar-no-hover-width, 60px) !important;
       transition: width var(--animation-duration-3, 0.5s);
     }
     #app-mount .sidebar_c48ade:hover {
@@ -920,7 +920,7 @@ html:not(.visual-refresh) {
   }
   @media (min-width: 801px) {
     #app-mount .sidebarList_c48ade {
-      width: var(--siderbar-no-hover-width, 60px);
+      width: var(--sidebar-no-hover-width, 60px);
       transition: width var(--animation-duration-3, 0.5s);
       container-type: unset;
 
