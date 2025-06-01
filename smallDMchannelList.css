@@ -817,6 +817,10 @@ html:not(.visual-refresh) {
         .usernameContainer__91e7c {
           display: inline-block;
         }
+        .dot_c9d15c:first-child,
+        .dot_c9d15c:last-child {
+          display: none !important;
+        }
         .indicatorContainer {
           display: inline-flex;
         }
