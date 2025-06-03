@@ -798,8 +798,8 @@ html:not(.visual-refresh) {
         width: 0;
         z-index: 101;
         position: fixed;
-        top: 0;
-        height: 100%;
+        top: 32px;
+        height: calc(100% - 32px);
         transition: width var(--animation-duration-3, 0.5s);
         backdrop-filter: blur(2px);
         border-right: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
