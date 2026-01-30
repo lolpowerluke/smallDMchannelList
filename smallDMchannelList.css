@@ -211,7 +211,7 @@
   [class^="panels"] [class^="buttons"] {
     opacity: 0;
     transition: opacity 0.25s ease-in-out;
-    will-change: opacity, transform;
+    will-change: opacity;
     pointer-events: none;
   }
   .sidebarList__5e434:hover ~ .panels__5e434 [class^="buttons"],
