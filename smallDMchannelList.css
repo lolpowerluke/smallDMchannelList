@@ -199,6 +199,7 @@
       transition: opacity var(--animation-duration-3, 0.5s);
     }
   }
+  .panels__5e434:hover .container__37e49 .nameTag__37e49,
   .sidebarResizeHandle__5e434:active + .panels__5e434 .container__37e49 .nameTag__37e49,
   .sidebarResizeHandle__5e434:hover + .panels__5e434 .container__37e49 .nameTag__37e49,
   .sidebarList__5e434:hover ~ .panels__5e434 .container__37e49 .nameTag__37e49 {
@@ -206,6 +207,17 @@
   }
   .sidebarList__5e434:hover ~ .panels__5e434 .container__37e49 .avatarWrapper__37e49 {
     margin-left: 0;
+  }
+  [class^="panels"] [class^="buttons"] {
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+    will-change: opacity, transform;
+    pointer-events: none;
+  }
+  .sidebarList__5e434:hover ~ .panels__5e434 [class^="buttons"],
+  [class^="panels"]:hover [class^="buttons"] {
+    opacity: 1;
+    pointer-events: auto;
   }
 }
 .sidebarList__5e434 {
