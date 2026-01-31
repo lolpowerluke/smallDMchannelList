@@ -146,10 +146,16 @@
         .gameIconWrapper__8c6c2 {
           margin-left: 0px;
         }
+        .buttons__37e49 {
+          display: flex;
+        }
       }
     }
   }
   .panels__5e434 {
+    .buttons__37e49 {
+      display: none;
+    }
     .wrapper_e131a9:not(:hover) {
       .container_e131a9 {
         padding: 0;
@@ -190,8 +196,6 @@
   } 
   .panels__5e434 .container__37e49 {
     .avatarWrapper__37e49 {
-      margin-left: 10px;
-      transition: margin-left var(--animation-duration-3, 0.5s);
       margin-right: 0;
     }
     .nameTag__37e49 {
@@ -199,6 +203,7 @@
       transition: opacity var(--animation-duration-3, 0.5s);
     }
   }
+  .panels__5e434:hover .container__37e49 .nameTag__37e49,
   .sidebarResizeHandle__5e434:active + .panels__5e434 .container__37e49 .nameTag__37e49,
   .sidebarResizeHandle__5e434:hover + .panels__5e434 .container__37e49 .nameTag__37e49,
   .sidebarList__5e434:hover ~ .panels__5e434 .container__37e49 .nameTag__37e49 {
@@ -241,4 +246,7 @@
 }
 .scroller__629e4 {
   padding-right: 0 !important;
+}
+.layer__59d0d:has(> div > .tooltip__4e35b) {
+  pointer-events: none;
 }
