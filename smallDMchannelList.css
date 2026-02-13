@@ -102,7 +102,10 @@
       width: var(--custom-guild-list-width);
       container-type: unset;
       margin: 0;
-      
+
+      .accountPopoutButtonWrapp {
+        min-width: unset;
+      }
       .buttons__37e49 {
         display: none;
       }
